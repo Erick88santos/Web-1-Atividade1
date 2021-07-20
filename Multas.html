@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="text">DETRAN</title>
+    <link rel="stylesheet" href="cor.css">
+    
+ 
+</head>
+<body>
+
+    <h1 id="cabecalho">Departamento Estadual de Trânsito</h1>
+
+    <h2 id="title">Sistema de Multas..</h2>
+
+    
+    <strong>Velocidade do veículo na rodovia:</strong> <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res"></div> 
+    
+    
+    
+    <script>
+               // usar comentário em uma linha
+        /*mais de umaq linha
+        */
+        window.alert('Para acessar o sistema de multas clicque em ok!')
+        window.confirm('Seja bem vindo a nossa plataforma de aferição de multas!')
+        //window.prompt('Digite o seu nome para prosseguir.')
+    </script>
+                                             
+    <script id="multa">
+     
+        
+
+        function calcular() {
+            var txtv = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('div#res')
+            var vel = Number(txtv.value)
+
+            
+            res.innerHTML =  `Sua velocidade atual é de <strong>${vel}Km/h</strong>`
+            if (vel > 60) {
+                res.innerHTML += `<p>Considerando que a velocdade Máxima da via é 60km/h</p>`
+                res.innerHTML += `<p>Você será <strong>MULTADO</strong> por excesso de velocidade</p>`
+            }
+            res.innerHTML += `<p><strong>Dirija sempre usando o cinto de segurança!</strong></p>`
+        }
+
+
+        
+
+    </script>
+
+   
+
+<header>
+     <h1>Detran</h1>
+</header>
+<section, "representaão da lista de posts"> 
+    <header>
+        <h2 class="subtitle">Notícias</h2>
+    </header>
+    <article class="post">
+        <header>
+            <h3 class="post_title", "nome do post">História do DETRAN</h3> 
+            <img class="post_image" src="fundoDetran.jpeg" alt="imagem ilustrativa desenho de dev">
+        </header>
+        <p class="post_contents">
+            No Governo de Nilo Coelho, em 1969, nasceu o DETRAN – Departamento Estadual de Trânsito de 
+            Pernambuco, através do decreto de Lei Criado nº. 23  do Governo do Estado, como Autarquia de 
+            Administração Indireta, vinculado a Secretaria de Segurança Pública, tendo como missão fiscalizar 
+            todo o trânsito do estado, assim como emitircarteiras de habilitação, liberação de veículos, entre 
+            outros serviços ligados a esta modalidade: <a href="https://www.pe.gov.br/orgaos/detran-pe-departamento-estadual-de-transito-de-pernambuco/" 
+            target="_blank">DETRAN-PE</a>
+            ou <a href="mailto: freitascrislayne@gmail.com">e-mail</a>
+        </p>
+    </article>
+    <h2 class="subtitle">Assessoria de Imprensa:</h2>
+<footer>
+    <ul class="contacts_list", "representação de contatos">
+       <li>
+          <a href="mailto:ouvidoria@detran.pe.gov.br">ouvidoria@detran.pe.gov.br</a> 
+        </li>
+        <li>
+            <a href="https:http://www.detran.pe.gov.br/" target="_blank">www.detran.pe.gov.br/</a>
+        </li> 
+        <li>
+            <a href="https://github.com/Erick88santos/Tela_Login_Cadastro88Sistem" target="GitHub de Erick">GitHub</a>
+        </li>
+    </ul>
+</footer> 
+</body>
+
+</html>

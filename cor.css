@@ -1,0 +1,90 @@
+body {
+    background: rgb(157, 181, 187);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: verdana;
+    max-width: 900px;
+    margin: auto;
+    
+
+}
+
+#multa {
+    border: 3px solid rgb(83, 96, 126);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#cabecalho {
+color: rgb(183, 202, 194);
+background: rgb(32, 56, 56);
+border: 3px solid rgb(83, 96, 126);
+border-radius: 8px;
+padding: 10px;
+margin: 10px;
+}
+
+#title  {
+    
+color: rgb(48, 107, 75);  
+font-size: 30px;
+text-transform: uppercase;
+color: rgb(44, 43, 43);
+
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+.subtitle {
+    color: rgb(36, 34, 34);
+}
+
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(184, 184, 172);
+
+}
+
+.post {
+    color: rgb(208, 208, 208);
+    background: rgb(32, 56, 56);
+    border: 3px solid rgb(83, 96, 126);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.post_contents {
+    margin: 0;
+    margin-bottom: 15px;
+    color: rgb(202, 197, 197);
+    text-transform: capitalize;
+    text-align: justify;
+
+}
+
+.post_image {
+   margin-bottom: 15px; 
+   width: 100%;
+   text-align: justify;
+   
+}
+
+.contacts_list {
+    color: rgb(208, 208, 208);
+    background: rgb(32, 56, 56);
+    border: 3px solid rgb(83, 96, 126);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    
+    
+}
+
